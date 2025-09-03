@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HIERROS GAMA</title>
+  <link rel="stylesheet" href="first.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+ 
+  <header>
+
+    <h1>TALLER DE ORNAMENTACION <br>HIERROS GAMA</h1>
+     <div class="galeria">
+    <div class="imagenes">
+      <img src="imagenes/1.jpg" alt="Imagen 1">
+      <img src="imagenes/2.jpg" alt="Imagen 2">
+      <img src="imagenes/3.jpg" alt="Imagen 3">
+      <img src="imagenes/4.jpg" alt="Imagen 4">
+      <img src="imagenes/5jpg.jpg" alt="Imagen 1">
+      <img src="imagenes/6.jpg" alt="Imagen 2">
+      <img src="imagenes/7.jpg" alt="Imagen 3">
+      <img src="imagenes/8.jpg" alt="Imagen 4">
+      <img src="imagenes/1.jpg" alt="Imagen 1">
+      <img src="imagenes/2.jpg" alt="Imagen 2">
+      <img src="imagenes/3.jpg" alt="Imagen 3">
+      <img src="imagenes/4.jpg" alt="Imagen 4">
+      <img src="imagenes/5jpg.jpg" alt="Imagen 1">
+      <img src="imagenes/6.jpg" alt="Imagen 2">
+      <img src="imagenes/7.jpg" alt="Imagen 3">
+      <img src="imagenes/8.jpg" alt="Imagen 4">
+      <img src="imagenes/1.jpg" alt="Imagen 1">
+      <img src="imagenes/2.jpg" alt="Imagen 2">
+      <img src="imagenes/3.jpg" alt="Imagen 3">
+      <img src="imagenes/4.jpg" alt="Imagen 4">
+      <img src="imagenes/5jpg.jpg" alt="Imagen 1">
+      <img src="imagenes/6.jpg" alt="Imagen 2">
+      <img src="imagenes/7.jpg" alt="Imagen 3">
+      <img src="imagenes/8.jpg" alt="Imagen 4">
+      
+      </div>
+  </div>
+    
+  </header>
+
+  <div class="principal">
+    <p>
+      Elaboraciones de puertas, ventanas, estructuras metálicas y todo lo relacionado con la ornamentación. Más de 20 años de experiencia.<br />
+      RESPONSABLES, EFICIENTES Y JUSTOS.
+    </p>
+
+    <div class="menu">
+      A continuación verás nuestro catálogo de trabajos.<br />
+      Elige según tu interés y comunícate con nosotros.
+    </div>
+  </div>
+  
+  <hr>
+
+  <div class="container">
+    <!-- Reutilizamos las tarjetas -->
+    <div class="opciones"><span class="estilo">PUERTAS</span><button onclick="location.href='puerta.html'">CLICK</button></div>
+    <div class="opciones"><span class="estilo">VENTANAS</span><button onclick="location.href='ventanas.html'">CLICK</button></div>
+    <div class="opciones"><span class="estilo">ESCALERAS Y PASAMANOS</span><button onclick="location.href='escaleras.html'">CLICK</button></div>
+    <div class="opciones"><span class="estilo">REJAS</span><button onclick="location.href='rejas.html'">CLICK</button></div>
+    <div class="opciones"><span class="estilo">PORTONES Y CORTINAS </span><button onclick="location.href='portones.html'">CLICK</button></div>
+    <div class="opciones"><span class="estilo">BALCONES</span><button onclick="location.href='balcones.html'">CLICK</button></div>
+  </div>
+
+  <!-- Botón para modo oscuro -->
+  <div class="dark-toggle">
+    <button id="darkModeBtn">Cambiar a Modo Oscuro</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 HIERROS GAMA | Tel: 3138683535 - 3138778700 | Email: ocamporamiro614@gmaiil.com | Direccion: Carrera 11 No 11-51 Brr Eduardo Santos</p>
+    <p>Síguenos en 
+      <a href="#">Facebook</a> | 
+      <a href="#">Instagram</a>
+    </p>
+  </footer>
+
+  <script>
+    const button = document.getElementById("darkModeBtn");
+    button.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+      button.textContent = document.body.classList.contains("dark-mode") ? "Cambiar a Modo Claro" : "Cambiar a Modo Oscuro";
+    });
+  </script>
+  <a class="whatsapp-btn" href="https://wa.me/573138683535?text=Hola%2C%20quiero%20más%20información" target="_blank">
+    💬 Escríbeme por WhatsApp
+  </a>
+</body>
+</html>
